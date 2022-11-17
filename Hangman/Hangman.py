@@ -27,6 +27,9 @@ def hangman():
         guess = str(input('Enter a word or letter: \n').upper())
         if guess in guesses:
             print('\nYou have already guessed that letter. ')
+        elif guess == exit:
+            print('Quitter!')
+            break
         elif len(guess) == 0:
             guess = str(input('Enter a word or letter: \n').upper())
         elif guess == r_comp_word:
@@ -39,9 +42,7 @@ def hangman():
         elif guess != r_comp_word:
             lives -= 1
             guesses.add(guess)
-        elif guess == exit:
-            print('Quitter!')
-            break
+        
         
            
                         
