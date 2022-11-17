@@ -8,6 +8,10 @@ def hangman():
     guesses = set()
     win = False
     w_letters = set(r_comp_word)
+    print(r_comp_word)
+    
+    
+    print('You can quit by typing - 0')
     
     exit = '0'
     
@@ -31,13 +35,15 @@ def hangman():
             win = True
         elif guess in w_letters:
             w_letters.remove(guess)
+            guesses.add(guess)    
+        elif guess != r_comp_word:
+            lives -= 1
             guesses.add(guess)
         elif guess == exit:
             print('Quitter!')
             break
-        else:
-            print('You lose!')
-        lives -=1   
+        
+           
                         
 hangman()
     
