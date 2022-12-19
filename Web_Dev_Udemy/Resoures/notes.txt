@@ -22,4 +22,30 @@
         - <hr> -- this is a horizontal rule, used to make a like across the screen, it can be changed in size. Example: <hr width = '500px'; size = '10>
 
             * All of these have the ability to include attributes within them, use documentation.
-        -
+        
+        -BOILERPLATE:
+            structure = 
+                <!DOCTYPE html>
+    (opening)   <html lang = 'en>
+                    <head>
+                        <meta charset = 'utf-8'
+                        <title> THE TITLE OF THE PAGE</title>
+                        This has all the meta data and is not seen by the viewers.
+                    </head>
+
+                    <body>
+                        <h1>Contains all the stuff within the page</h1>
+                    </body>
+
+
+    (closing)   </html>
+
+            * You can type ! in VSCode to ge the BOILERPLATE like a module in python.
+        - <strong></strong> -- BOLD lettering
+
+        - <em></em> -- Italicises the words
+
+        - <ul></ul> -- unordered list
+            * <li></li> -- used within <ul> to add bullet points
+
+        - <ol></ol> -- ordered list
