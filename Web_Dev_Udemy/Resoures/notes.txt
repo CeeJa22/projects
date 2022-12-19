@@ -1,0 +1,25 @@
+/// How Websites Actually Work?
+    # The Internet:
+        Consist of clients and servers, which communicate via wires buried all throught the world. You as a client send a request  for information and a DNS server connects you with
+        the server and allows you to receive the data. 
+        - Data is usually in HTML, CSS, and JavaScript.
+        -HTML:
+            * Responsible for content, the information presented on the website and structure of the website. (SKELETON)
+        -CSS:
+            * Responsible for the styling of the website. (LOOKS)
+        -JavaScript:
+            *Responsible for the the functionality of the website, like adding supplies in a house that turns it int a home. Allows for the website to do things and be functional.
+        
+        Once the browser loads up the information from the website it starts to build the website then style it and after that makes it functional.
+    
+    
+    
+    # Tag Playbook:
+        - <h1></h1> -- this is a level 1 heading created using an h1 tag; these can go from <h1> to <h6>.
+
+        - <br> -- this is a line break, equal to what the '\n' does in python.
+
+        - <hr> -- this is a horizontal rule, used to make a like across the screen, it can be changed in size. Example: <hr width = '500px'; size = '10>
+
+            * All of these have the ability to include attributes within them, use documentation.
+        -
